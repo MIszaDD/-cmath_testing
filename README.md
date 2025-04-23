@@ -16,7 +16,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ## 🧪 Lista przetestowanych funkcji
 
 <details>
-<summary>📐 Funkcje trygonometryczne</summary>
+<summary> Funkcje trygonometryczne</summary>
 
 - `std::sin` – sinus  
 - `std::cos` – cosinus  
@@ -28,7 +28,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 </details>
 
 <details>
-<summary>🔢 Funkcje wykładnicze i logarytmiczne</summary>
+<summary> Funkcje wykładnicze i logarytmiczne</summary>
 
 - `std::exp` – funkcja wykładnicza `e^x`  
 - `std::exp2` – `2^x`  
@@ -41,14 +41,14 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 </details>
 
 <details>
-<summary>🧊 Funkcje pierwiastkowe</summary>
+<summary> Funkcje pierwiastkowe</summary>
 
 - `std::sqrt` – pierwiastek kwadratowy  
 - `std::cbrt` – pierwiastek sześcienny  
 </details>
 
 <details>
-<summary>🔁 Funkcje zaokrąglające</summary>
+<summary> Funkcje zaokrąglające</summary>
 
 - `std::ceil` – zaokrąglenie w górę  
 - `std::floor` – zaokrąglenie w dół  
@@ -58,7 +58,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 </details>
 
 <details>
-<summary>🧷 Funkcje pomocnicze i operacje na liczbach</summary>
+<summary> Funkcje pomocnicze i operacje na liczbach</summary>
 
 - `std::abs` – wartość bezwzględna (dla `int`)  
 - `std::fabs` – wartość bezwzględna (dla `double`)  
@@ -70,7 +70,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 </details>
 
 <details>
-<summary>🧮 Funkcje specjalne i inne</summary>
+<summary> Funkcje specjalne i inne</summary>
 
 - `std::frexp` – rozkład liczby na mantysę i wykładnik (`m * 2^exp`)  
 - `std::ldexp` – odwrotność `frexp`, czyli `m * 2^exp`  
