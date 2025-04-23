@@ -17,21 +17,15 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 
 ### Funkcje trygonometryczne:
 * std::sin
-
 * std::cos
-
 * std::tan
-
 * std::asin
-
 * std::acos
-
 * std::atan
-
 * std::atan2
 
 ### Funkcje wykładnicze i logarytmiczne:
-std::exp
+* std::exp
 
 * std::exp2
 
