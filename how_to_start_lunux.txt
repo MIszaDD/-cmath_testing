@@ -3,6 +3,8 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ./cmath_test
 
 
+result:
+
 [==========] Running 36 tests from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 36 tests from CMathTest
