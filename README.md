@@ -82,3 +82,14 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 * std::ldexp – odwrotność frexp, mnożenie przez potęgę dwójki
 
 * std::erf / std::erfc – funkcja błędu i jej dopełnienie
+
+
+## Lista nieuporządkowana
+*   Pierwszy element
+*   Drugi element
+*   Trzeci element
+
+## Lista uporządkowana
+1.  Pierwszy element
+2.  Drugi element
+3.  Trzeci element
