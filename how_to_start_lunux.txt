@@ -1,0 +1,86 @@
+g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
+
+./cmath_test
+
+
+[==========] Running 36 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 36 tests from CMathTest
+[ RUN      ] CMathTest.AbsValue
+[       OK ] CMathTest.AbsValue (0 ms)
+[ RUN      ] CMathTest.Acos
+[       OK ] CMathTest.Acos (0 ms)
+[ RUN      ] CMathTest.Asin
+[       OK ] CMathTest.Asin (0 ms)
+[ RUN      ] CMathTest.Atan
+[       OK ] CMathTest.Atan (0 ms)
+[ RUN      ] CMathTest.Atan2
+[       OK ] CMathTest.Atan2 (0 ms)
+[ RUN      ] CMathTest.Cbrt
+[       OK ] CMathTest.Cbrt (0 ms)
+[ RUN      ] CMathTest.Ceil
+[       OK ] CMathTest.Ceil (0 ms)
+[ RUN      ] CMathTest.Copysign
+[       OK ] CMathTest.Copysign (0 ms)
+[ RUN      ] CMathTest.Cos
+[       OK ] CMathTest.Cos (0 ms)
+[ RUN      ] CMathTest.Exp
+[       OK ] CMathTest.Exp (0 ms)
+[ RUN      ] CMathTest.Exp2
+[       OK ] CMathTest.Exp2 (0 ms)
+[ RUN      ] CMathTest.Expm1
+[       OK ] CMathTest.Expm1 (0 ms)
+[ RUN      ] CMathTest.Erf
+[       OK ] CMathTest.Erf (0 ms)
+[ RUN      ] CMathTest.Erfc
+[       OK ] CMathTest.Erfc (0 ms)
+[ RUN      ] CMathTest.Fabs
+[       OK ] CMathTest.Fabs (0 ms)
+[ RUN      ] CMathTest.Fdim
+[       OK ] CMathTest.Fdim (0 ms)
+[ RUN      ] CMathTest.Floor
+[       OK ] CMathTest.Floor (0 ms)
+[ RUN      ] CMathTest.Fma
+[       OK ] CMathTest.Fma (0 ms)
+[ RUN      ] CMathTest.Fmax
+[       OK ] CMathTest.Fmax (0 ms)
+[ RUN      ] CMathTest.Fmin
+[       OK ] CMathTest.Fmin (0 ms)
+[ RUN      ] CMathTest.Fmod
+[       OK ] CMathTest.Fmod (0 ms)
+[ RUN      ] CMathTest.Frexp
+[       OK ] CMathTest.Frexp (0 ms)
+[ RUN      ] CMathTest.Hypot
+[       OK ] CMathTest.Hypot (0 ms)
+[ RUN      ] CMathTest.Ilogb
+[       OK ] CMathTest.Ilogb (0 ms)
+[ RUN      ] CMathTest.Ldexp
+[       OK ] CMathTest.Ldexp (0 ms)
+[ RUN      ] CMathTest.Llround
+[       OK ] CMathTest.Llround (0 ms)
+[ RUN      ] CMathTest.Log
+[       OK ] CMathTest.Log (0 ms)
+[ RUN      ] CMathTest.Log10
+[       OK ] CMathTest.Log10 (0 ms)
+[ RUN      ] CMathTest.Log1p
+[       OK ] CMathTest.Log1p (0 ms)
+[ RUN      ] CMathTest.Log2
+[       OK ] CMathTest.Log2 (0 ms)
+[ RUN      ] CMathTest.Pow
+[       OK ] CMathTest.Pow (0 ms)
+[ RUN      ] CMathTest.Round
+[       OK ] CMathTest.Round (0 ms)
+[ RUN      ] CMathTest.Sine
+[       OK ] CMathTest.Sine (0 ms)
+[ RUN      ] CMathTest.Sqrt
+[       OK ] CMathTest.Sqrt (0 ms)
+[ RUN      ] CMathTest.Tan
+[       OK ] CMathTest.Tan (0 ms)
+[ RUN      ] CMathTest.Trunc
+[       OK ] CMathTest.Trunc (0 ms)
+[----------] 36 tests from CMathTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 36 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 36 tests.
+
