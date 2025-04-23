@@ -16,19 +16,19 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ## 🧪 Lista przetestowanych funkcji
 
 ### Funkcje trygonometryczne:
-std::sin
+* std::sin
 
-std::cos
+* std::cos
 
-std::tan
+* std::tan
 
-std::asin
+* std::asin
 
-std::acos
+* std::acos
 
-std::atan
+* std::atan
 
-std::atan2
+* std::atan2
 
 ### Funkcje wykładnicze i logarytmiczne:
 std::exp
