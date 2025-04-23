@@ -12,17 +12,23 @@ Aby skompilować projekt i uruchomić testy, użyj poniższych poleceń:
 g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ./cmath_test
 ```
+<details>
+<summary>## 🧪 Lista przetestowanych funkcji</summary>
 
-## 🧪 Lista przetestowanych funkcji
+<summary>### Funkcje trygonometryczne:</summary>
+* std::sin
+  
+* std::cos
+  
+* std::tan
+  
+* std::asin
+  
+* std::acos
+  
+* std::atan
 
-### Funkcje trygonometryczne:
-*   std::sin
-*   std::cos
-*   std::tan
-*   std::asin
-*   std::acos
-*   std::atan
-*   std::atan2
+* std::atan2
 
 ### Funkcje wykładnicze i logarytmiczne:
 * std::exp
@@ -83,13 +89,4 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 
 * std::erf / std::erfc – funkcja błędu i jej dopełnienie
 
-
-## Lista nieuporządkowana
-*   Pierwszy element
-*   Drugi element
-*   Trzeci element
-
-## Lista uporządkowana
-1.  Pierwszy element
-2.  Drugi element
-3.  Trzeci element
+</details>
