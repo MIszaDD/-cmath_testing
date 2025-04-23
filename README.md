@@ -33,58 +33,58 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ### Funkcje wykładnicze i logarytmiczne:
 std::exp
 
-std::exp2
+* std::exp2
 
-std::expm1
+* std::expm1
 
-std::log
+* std::log
 
-std::log10
+* std::log10
 
-std::log2
+* std::log2
 
-std::log1p
+* std::log1p
 
-std::pow
+* std::pow
 
 ### Funkcje pierwiastkowe:
-std::sqrt
+* std::sqrt
 
-std::cbrt
+* std::cbrt
 
 ### Funkcje zaokrąglające:
-std::ceil
+* std::ceil
 
-std::floor
+* std::floor
 
-std::round
+* std::round
 
-std::trunc
+* std::trunc
 
-std::llround
+* std::llround
 
 ### Funkcje pomocnicze:
-std::fabs – wartość bezwzględna (dla double)
+* std::fabs – wartość bezwzględna (dla double)
 
-std::abs – wartość bezwzględna (dla int)
+* std::abs – wartość bezwzględna (dla int)
 
-std::copysign – kopiowanie znaku
+* std::copysign – kopiowanie znaku
 
-std::fdim – różnica dodatnia
+* std::fdim – różnica dodatnia
 
-std::fmod – reszta z dzielenia zmiennoprzecinkowego
+* std::fmod – reszta z dzielenia zmiennoprzecinkowego
 
-std::fma – mnożenie i dodawanie (Fused Multiply-Add)
+* std::fma – mnożenie i dodawanie (Fused Multiply-Add)
 
-std::fmin / std::fmax – minimum i maksimum
+* std::fmin / std::fmax – minimum i maksimum
 
 ### Inne:
-std::frexp – rozkład na mantysę i wykładnik
+* std::frexp – rozkład na mantysę i wykładnik
 
-std::hypot – obliczanie odległości euklidesowej
+* std::hypot – obliczanie odległości euklidesowej
 
-std::ilogb – całkowity logarytm binarny
+* std::ilogb – całkowity logarytm binarny
 
-std::ldexp – odwrotność frexp, mnożenie przez potęgę dwójki
+* std::ldexp – odwrotność frexp, mnożenie przez potęgę dwójki
 
-std::erf / std::erfc – funkcja błędu i jej dopełnienie
+* std::erf / std::erfc – funkcja błędu i jej dopełnienie
