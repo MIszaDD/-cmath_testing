@@ -2,7 +2,9 @@
 
 ## 📌 Opis projektu
 
-Projekt zawiera zestaw testów dla funkcji matematycznych zawartych w bibliotece C++ `cmath`. Testy zostały napisane przy użyciu frameworka **Google Test**.Dane testowe (wartości liczbowe) zostały wygenerowane za pomocą `ChatGTP`.
+Projekt zawiera zestaw testów dla funkcji matematycznych zawartych w bibliotece C++ `cmath`. Testy zostały napisane przy użyciu frameworka **Google Test**.Dane testowe (wartości liczbowe) zostały wygenerowane za pomocą `ChatGTP`. 
+<br>
+Testowanie nie objęło pełnego pokrycia rozgałęzień i instrukcji dla wszystkich funkcji dostępnych w bibliotece cmath. Ponieważ nie miałem odpowiednich danych do testowania niektórych bardziej zawansowanych funkcji.
 
 ## ⚙️ Kompilacja i uruchomienie
 
