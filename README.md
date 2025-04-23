@@ -2,12 +2,11 @@
 
 ## 📌 Opis projektu
 
-Projekt ten zawiera zestaw testów jednostkowych dla funkcji matematycznych zawartych w standardowej bibliotece C++ `cmath`. Testy zostały napisane przy użyciu frameworka **Google Test**, który jest powszechnie stosowany do testowania kodu w języku C++.
-Dane testowe (wartości liczbowe) zostały wygenerowane za pomocą `ChatGTP`.
+Projekt zawiera zestaw testów dla funkcji matematycznych zawartych w bibliotece C++ `cmath`. Testy zostały napisane przy użyciu frameworka **Google Test**.Dane testowe (wartości liczbowe) zostały wygenerowane za pomocą `ChatGTP`.
 
 ## ⚙️ Kompilacja i uruchomienie
 
-Aby skompilować projekt i uruchomić testy, użyj poniższych poleceń:
+Aby skompilować projekt i uruchomić testy należy uzyć poniższych poleceń w systemie operacyjnym linux:
 
 ```bash
 g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
@@ -81,7 +80,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 </details>
 
 ## ⚙️ Działanie kodu
-Kod testowy został napisany z użyciem frameworka Google Test. Struktura testu wygląda następująco:
+Ponżej znajduje się struktura kodu testu:
 
 ```bash
 TEST(CMathTest, AbsValue) {
