@@ -16,7 +16,8 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ## 🧪 Lista przetestowanych funkcji
 
 <details>
-<summary>Funkcje trygonometryczne:</summary>
+<summary> ###Funkcje trygonometryczne:</summary>
+  
 * std::sin
   
 * std::cos
@@ -32,7 +33,9 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 * std::atan2
 </details>
 
-### Funkcje wykładnicze i logarytmiczne:
+<details>
+<summary> Funkcje wykładnicze i logarytmiczne:</summary>
+
 * std::exp
 
 * std::exp2
@@ -48,13 +51,19 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 * std::log1p
 
 * std::pow
+</details>
 
-### Funkcje pierwiastkowe:
+<details>
+<summary> Funkcje pierwiastkowe:</summary>
+
 * std::sqrt
 
 * std::cbrt
+</details>
 
-### Funkcje zaokrąglające:
+<details>
+<summary> Funkcje zaokrąglające:</summary>
+
 * std::ceil
 
 * std::floor
@@ -64,8 +73,11 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 * std::trunc
 
 * std::llround
+</details>
 
-### Funkcje pomocnicze:
+<details>
+<summary> Funkcje pomocnicze:</summary>
+
 * std::fabs – wartość bezwzględna (dla double)
 
 * std::abs – wartość bezwzględna (dla int)
@@ -79,8 +91,11 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 * std::fma – mnożenie i dodawanie (Fused Multiply-Add)
 
 * std::fmin / std::fmax – minimum i maksimum
+</details>
 
-### Inne:
+<details>
+<summary> Inne:</summary>
+
 * std::frexp – rozkład na mantysę i wykładnik
 
 * std::hypot – obliczanie odległości euklidesowej
