@@ -91,7 +91,8 @@ TEST(CMathTest, AbsValue) {
 }
 ```
 
-### Poniżej znajdziesz wyjaśnienie każdego elementu:
+<details>
+<summary> Działanie poszczególnych elementów:</summary>
 
 - `TEST(...)` – makro z Google Test, które definiuje nowy przypadek testowy.
 
@@ -106,3 +107,4 @@ TEST(CMathTest, AbsValue) {
 - `std::abs` – funkcja z biblioteki standardowej C++ (cmath), oblicza wartość bezwzględną liczby.
 
 - `std::` – przestrzeń nazw standardowej biblioteki C++. Wszystkie funkcje z cmath (np. std::sin, std::log, std::pow) są w tej przestrzeni nazw.
+<details>
