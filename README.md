@@ -16,7 +16,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ## 🧪 Lista przetestowanych funkcji
 
 <details>
-<summary> ###Funkcje trygonometryczne:</summary>
+<summary> Funkcje trygonometryczne:</summary>
   
 * std::sin
   
