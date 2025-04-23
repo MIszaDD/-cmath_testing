@@ -93,16 +93,16 @@ TEST(CMathTest, AbsValue) {
 
 ### Poniżej znajdziesz wyjaśnienie każdego elementu:
 
-TEST(...) – makro z Google Test, które definiuje nowy przypadek testowy.
+- `TEST(...)` – makro z Google Test, które definiuje nowy przypadek testowy.
 
-Pierwszy argument (CMathTest) to nazwa grupy testowej – służy do logicznego pogrupowania testów.
+- `Pierwszy argument (CMathTest)` to nazwa grupy testowej – służy do logicznego pogrupowania testów.
 
-Drugi argument (AbsValue) to nazwa konkretnego testu w ramach tej grupy.
+- `Drugi argument (AbsValue)` to nazwa konkretnego testu w ramach tej grupy.
 
-EXPECT_EQ(val1, val2) – sprawdza, czy val1 i val2 są sobie równe. Używane głównie do wartości całkowitych i dokładnych porównań.
+- `EXPECT_EQ(val1, val2)` – sprawdza, czy val1 i val2 są sobie równe. Używane głównie do wartości całkowitych i dokładnych porównań.
 
-EXPECT_NEAR(val1, val2, tolerance) – sprawdza, czy val1 i val2 są blisko siebie w ramach określonej tolerancji (np. 0.0001). Używane przy porównywaniu liczb zmiennoprzecinkowych, gdzie występują drobne błędy zaokrągleń.
+- `EXPECT_NEAR(val1, val2, tolerance)` – sprawdza, czy val1 i val2 są blisko siebie w ramach określonej tolerancji (np. 0.0001). Używane przy porównywaniu liczb zmiennoprzecinkowych, gdzie występują drobne błędy zaokrągleń.
 
-std::abs – funkcja z biblioteki standardowej C++ (cmath), oblicza wartość bezwzględną liczby.
+- `std::abs` – funkcja z biblioteki standardowej C++ (cmath), oblicza wartość bezwzględną liczby.
 
-std:: – przestrzeń nazw standardowej biblioteki C++. Wszystkie funkcje z cmath (np. std::sin, std::log, std::pow) są w tej przestrzeni nazw.
+- `std::` – przestrzeń nazw standardowej biblioteki C++. Wszystkie funkcje z cmath (np. std::sin, std::log, std::pow) są w tej przestrzeni nazw.
