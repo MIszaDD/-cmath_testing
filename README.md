@@ -3,6 +3,7 @@
 ## 📌 Opis projektu
 
 Projekt ten zawiera zestaw testów jednostkowych dla funkcji matematycznych zawartych w standardowej bibliotece C++ `cmath`. Testy zostały napisane przy użyciu frameworka **Google Test**, który jest powszechnie stosowany do testowania kodu w języku C++.
+Dane testowe (wartości liczbowe) zostały wygenerowane za pomocą `ChatGTP`.
 
 ## ⚙️ Kompilacja i uruchomienie
 
