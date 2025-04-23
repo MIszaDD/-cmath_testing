@@ -12,10 +12,11 @@ Aby skompilować projekt i uruchomić testy, użyj poniższych poleceń:
 g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ./cmath_test
 ```
-<details>
-<summary>## 🧪 Lista przetestowanych funkcji</summary>
 
-<summary>### Funkcje trygonometryczne:</summary>
+## 🧪 Lista przetestowanych funkcji
+
+<details>
+<summary>Funkcje trygonometryczne:</summary>
 * std::sin
   
 * std::cos
@@ -29,6 +30,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 * std::atan
 
 * std::atan2
+</details>
 
 ### Funkcje wykładnicze i logarytmiczne:
 * std::exp
