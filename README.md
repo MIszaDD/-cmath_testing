@@ -6,7 +6,7 @@ Projekt zawiera zestaw testów dla funkcji matematycznych zawartych w bibliotece
 <br><br>
 Testowanie nie objęło pełnego pokrycia rozgałęzień i instrukcji dla wszystkich funkcji dostępnych w bibliotece cmath. Ponieważ nie miałem odpowiednich danych do testowania niektórych bardziej zawansowanych funkcji.
 
-## ⚙️ Kompilacja i uruchomienie
+## Kompilacja i uruchomienie
 
 Aby skompilować projekt i uruchomić testy należy uzyć poniższych poleceń w systemie operacyjnym linux:
 
