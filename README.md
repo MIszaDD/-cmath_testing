@@ -95,9 +95,9 @@ TEST(CMathTest, AbsValue) {
 <details>
 <summary> Działanie poszczególnych elementów:</summary>
 
-- `TEST(...)` – to makro z Google Test, które tworzy nowy test.
+- `TEST(...)` – to funkcja z Google Test, które tworzy nowy test.
 
-- `CMathTest` – to nazwa grupy testów, która pomaga pogrupować kilka testów razem.
+- `CMathTest` – to nazwa grupy testów, która pomaga pogrupować kilka testów razem (coś jak grupa).
 
 - `AbsValue` – to nazwa konkretnego testu w tej grupie.
 
@@ -107,6 +107,6 @@ TEST(CMathTest, AbsValue) {
 
 - `std::abs` – funkcja z biblioteki C++, która zwraca wartość bezwzględną liczby.
 
-- `std::` – to po prostu oznaczenie, że używamy czegoś z biblioteki standardowej C++ (jak np. std::sin, std::pow, itd.).
+- `std::` – oznaczenie, że używamy coś z biblioteki standardowej C++.
 
 </details>
