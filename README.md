@@ -1,6 +1,6 @@
 # Testowanie funkcji `cmath` w C++ z użyciem Google Test
 
-## 📌 Opis projektu
+## Opis projektu
 
 Projekt zawiera zestaw testów dla funkcji matematycznych zawartych w bibliotece C++ `cmath`. Testy zostały napisane przy użyciu frameworka **Google Test**.Dane testowe (wartości liczbowe) zostały wygenerowane za pomocą `ChatGTP`. 
 <br><br>
@@ -15,7 +15,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 ./cmath_test
 ```
 
-## 🧪 Lista przetestowanych funkcji
+## Lista przetestowanych funkcji
 
 <details>
 <summary> Funkcje trygonometryczne</summary>
@@ -81,7 +81,7 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 - `std::erf` / `std::erfc` – funkcja błędu i jej dopełnienie  
 </details>
 
-## ⚙️ Działanie kodu
+## Działanie kodu
 Ponżej znajduje się struktura kodu testu:
 
 ```bash
