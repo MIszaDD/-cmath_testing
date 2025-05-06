@@ -2,7 +2,7 @@
 #include <cmath>
 
 TEST(CMathTest, AbsValue) {
-    EXPECT_EQ(std::abs(-5), 5);
+    EXPECT_EQ(std::abs(-5.2), 5.2);
     EXPECT_EQ(std::abs(0), 0);
     EXPECT_EQ(std::abs(3), 3);
 }
