@@ -9,80 +9,115 @@ result:
 [----------] Global test environment set-up.
 [----------] 36 tests from CMathTest
 [ RUN      ] CMathTest.AbsValue
+AbsValue:  time:1263ns
 [       OK ] CMathTest.AbsValue (0 ms)
 [ RUN      ] CMathTest.Acos
+Acos:  time:11862ns
 [       OK ] CMathTest.Acos (0 ms)
 [ RUN      ] CMathTest.Asin
+Asin:  time:851ns
 [       OK ] CMathTest.Asin (0 ms)
 [ RUN      ] CMathTest.Atan
+Atan:  time:5831ns
 [       OK ] CMathTest.Atan (0 ms)
 [ RUN      ] CMathTest.Atan2
+Atan2:  time:1322ns
 [       OK ] CMathTest.Atan2 (0 ms)
 [ RUN      ] CMathTest.Cbrt
+Cbrt:  time:5630ns
 [       OK ] CMathTest.Cbrt (0 ms)
 [ RUN      ] CMathTest.Ceil
+Ceil:  time:421ns
 [       OK ] CMathTest.Ceil (0 ms)
 [ RUN      ] CMathTest.Copysign
+Copysign:  time:401ns
 [       OK ] CMathTest.Copysign (0 ms)
 [ RUN      ] CMathTest.Cos
+Cos:  time:1002ns
 [       OK ] CMathTest.Cos (0 ms)
 [ RUN      ] CMathTest.Exp
+Exp:  time:992ns
 [       OK ] CMathTest.Exp (0 ms)
 [ RUN      ] CMathTest.Exp2
+Exp2:  time:652ns
 [       OK ] CMathTest.Exp2 (0 ms)
 [ RUN      ] CMathTest.Expm1
+Expm1:  time:982ns
 [       OK ] CMathTest.Expm1 (0 ms)
 [ RUN      ] CMathTest.Erf
+Erf:  time:832ns
 [       OK ] CMathTest.Erf (0 ms)
 [ RUN      ] CMathTest.Erfc
+Erfc:  time:1012ns
 [       OK ] CMathTest.Erfc (0 ms)
 [ RUN      ] CMathTest.Fabs
+Fabs:  time:341ns
 [       OK ] CMathTest.Fabs (0 ms)
 [ RUN      ] CMathTest.Fdim
+Fdim:  time:731ns
 [       OK ] CMathTest.Fdim (0 ms)
 [ RUN      ] CMathTest.Floor
+Floor:  time:290ns
 [       OK ] CMathTest.Floor (0 ms)
 [ RUN      ] CMathTest.Fma
+Fma:  time:411ns
 [       OK ] CMathTest.Fma (0 ms)
 [ RUN      ] CMathTest.Fmax
+Fmax:  time:390ns
 [       OK ] CMathTest.Fmax (0 ms)
 [ RUN      ] CMathTest.Fmin
+Fmin:  time:361ns
 [       OK ] CMathTest.Fmin (0 ms)
 [ RUN      ] CMathTest.Fmod
+Fmod:  time:450ns
 [       OK ] CMathTest.Fmod (0 ms)
 [ RUN      ] CMathTest.Frexp
+Frexp:  time:321ns
 [       OK ] CMathTest.Frexp (0 ms)
 [ RUN      ] CMathTest.Hypot
+Hypot:  time:791ns
 [       OK ] CMathTest.Hypot (0 ms)
 [ RUN      ] CMathTest.Ilogb
+Ilogb:  time:681ns
 [       OK ] CMathTest.Ilogb (0 ms)
 [ RUN      ] CMathTest.Ldexp
+Ldexp:  time:521ns
 [       OK ] CMathTest.Ldexp (0 ms)
 [ RUN      ] CMathTest.Llround
+Llround:  time:401ns
 [       OK ] CMathTest.Llround (0 ms)
 [ RUN      ] CMathTest.Log
+Log:  time:871ns
 [       OK ] CMathTest.Log (0 ms)
 [ RUN      ] CMathTest.Log10
+Log10:  time:1232ns
 [       OK ] CMathTest.Log10 (0 ms)
 [ RUN      ] CMathTest.Log1p
+Log1p:  time:491ns
 [       OK ] CMathTest.Log1p (0 ms)
 [ RUN      ] CMathTest.Log2
+Log2:  time:551ns
 [       OK ] CMathTest.Log2 (0 ms)
 [ RUN      ] CMathTest.Pow
+Pow:  time:1202ns
 [       OK ] CMathTest.Pow (0 ms)
 [ RUN      ] CMathTest.Round
+Round:  time:290ns
 [       OK ] CMathTest.Round (0 ms)
 [ RUN      ] CMathTest.Sine
+Sine:  time:481ns
 [       OK ] CMathTest.Sine (0 ms)
 [ RUN      ] CMathTest.Sqrt
+Sqrt:  time:691ns
 [       OK ] CMathTest.Sqrt (0 ms)
 [ RUN      ] CMathTest.Tan
+Tan:  time:711ns
 [       OK ] CMathTest.Tan (0 ms)
 [ RUN      ] CMathTest.Trunc
+Trunc:  time:391ns
 [       OK ] CMathTest.Trunc (0 ms)
 [----------] 36 tests from CMathTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 36 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 36 tests.
-
