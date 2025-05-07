@@ -82,13 +82,45 @@ g++ cmath_test.cpp -lgtest -lgtest_main -pthread -o cmath_test
 </details>
 
 ## Działanie kodu
-Ponżej znajduje się struktura kodu testu:
+- Ponżej znajduje się struktura kodu liczenia czasu:
+```bash
+void Nanosec(std::string name, void(*fn)()) {
+    auto a = std::chrono::high_resolution_clock::now();
+    fn();
+    auto b = std::chrono::high_resolution_clock::now();
+    auto t = std::chrono::duration_cast<std::chrono::nanoseconds>(b - a).count();
+    std::cout << name << " time:" << t << "ns" << std::endl;
+}
+```
+<details>
+<summary> Działanie poszczególnych elementów:</summary>
+
+- `std::string name` – placeholder na tekst.
+  
+- `void(*fn)()` -  wskaźnik na funkcję.
+  
+- `std::chrono::high_resolution_clock::now()` - wywołuje funkcje now() zwraca aktualny czas.
+  
+- `fn();` - wywołanie funkcji przekazanej jako wskaźnik.
+  
+- `std::chrono::duration_cast<std::chrono::nanoseconds>` - przerzucenie na nanosekundy.
+  
+- `(b - a)` – różnica czasu trwania wykonania funkcji.
+  
+- `std::cout << name << " time:" << t << "ns" << std::endl;` - wypisanie danych.
+
+</details>
+
+- Ponżej znajduje się struktura kodu testu:
 
 ```bash
-TEST(CMathTest, AbsValue) {
-    EXPECT_EQ(std::abs(-5), 5);
+void testAbsValue() {
+    EXPECT_EQ(std::abs(-5.2), 5.2);
     EXPECT_EQ(std::abs(0), 0);
-    EXPECT_EQ(std::abs(3), 3);
+    EXPECT_EQ(std::abs(-3.2), 3.2);
+}
+TEST(CMathTest, AbsValue) {
+    Nanosec("AbsValue: ",testAbsValue);
 }
 ```
 
@@ -108,5 +140,7 @@ TEST(CMathTest, AbsValue) {
 - `std::abs` – funkcja z biblioteki C++, która zwraca wartość bezwzględną liczby.
 
 - `std::` – oznaczenie, że używamy coś z biblioteki standardowej C++.
+  
+-  `Nanosec("AbsValue: ",testAbsValue);` - wywołanie funkcji.
 
 </details>
