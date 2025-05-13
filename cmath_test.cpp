@@ -14,9 +14,13 @@ void Nanosec(std::string name, void(*fn)()) {
 
 
 void testAbsValue() {
-    EXPECT_EQ(std::abs(-5.2), 5.2);
+    EXPECT_EQ(std::abs(-2147483648), 2147483648);
     EXPECT_EQ(std::abs(0), 0);
-    EXPECT_EQ(std::abs(-3.2), 3.2);
+    EXPECT_EQ(std::abs(2147483648), 2147483648);
+    EXPECT_EQ(std::abs(-1), 1);
+    EXPECT_EQ(std::abs(1), 1);
+    EXPECT_EQ(std::abs(350.15), 350.15);
+    EXPECT_EQ(std::abs(-350.15), 350.15);
 }
 TEST(CMathTest, AbsValue) {
     Nanosec("AbsValue: ",testAbsValue);
