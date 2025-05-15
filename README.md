@@ -143,4 +143,12 @@ TEST(CMathTest, AbsValue) {
   
 -  `Nanosec("AbsValue: ",testAbsValue);` - wywołanie funkcji.
 
+-  `std::isnan` - sprawdza, czy liczba x jest NaN (Not a Number).
+
+-  `std::isinf` - sprawdza, czy liczba x jest nieskończonością.
+  
+-  `EXPECT_TRUE` - sprawdza, czy wyrażenie jest prawdą (true).
+  
+-  `EXPECT_FALSE` -  sprawdza, czy wyrażenie jest fałszem (false)
+
 </details>
